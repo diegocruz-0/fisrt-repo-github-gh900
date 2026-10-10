@@ -24,3 +24,13 @@ New test after creating the branch
 	2. Verificar logs em `/var/log/deploy.log`
 	3. Validar endpoints de saúde
 	4. Health Check: /Health
+
+## Implementação de Testes
+	- Test Environment: staging
+	- Test Timeout: 15s
+	- Max Test Connections: 400
+	- Test Retries: 3
+	- Test Parallelism: 5
+	- Test Report Format: JSON
+	- Test Coverage: 80%
+	- Test Report Directory: ./test-reports-json
