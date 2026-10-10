@@ -25,3 +25,7 @@ New test after creating the branch
 - Timeout: 30s
 - Max connections: 1000
 
+## testConfiguration
+- Test Environment: staging
+- Test Timeout: 15s
+- Max Test Connections: 500
