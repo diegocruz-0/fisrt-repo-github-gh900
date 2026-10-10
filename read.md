@@ -19,13 +19,24 @@ New test after creating the branch
 3. Validate health endpoints
 4. Health Check: /Health
 
+	## Instruções de Deploy v2
+	1. Executar script `deploy-v2.sh`
+	2. Verificar logs em `/var/log/deploy.log`
+	3. Validar endpoints de saúde
+	4. Health Check: /Health
+
+## Implementação de Testes
+	- Test Environment: staging
+	- Test Timeout: 15s
+	- Max Test Connections: 400
+	- Test Retries: 3
+	- Test Parallelism: 5
+	- Test Report Format: JSON
+	- Test Coverage: 80%
+	- Test Report Directory: ./test-reports-json
 ## System Configuration
 - Environment: production
 - Port: 8080
 - Timeout: 30s
 - Max connections: 1000
 
-## testConfiguration
-- Test Environment: staging
-- Test Timeout: 15s
-- Max Test Connections: 500
